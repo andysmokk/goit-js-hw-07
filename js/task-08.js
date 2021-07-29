@@ -13,7 +13,7 @@ const onRenderBtnClick = () => {
 const onDestroyBtnClick = () => {
     boxesRef.innerHTML = '';
     defaultSize = 30;
-    inputRef.value = 0;
+    inputRef.value = null;
 };
 
 const createBoxes = amount => {
